@@ -1,8 +1,6 @@
 {
   "name": "balmjs/laravel-balm",
   "description": "versioning / cache busting by BalmJS",
-  "version": "1.0.0",
-  "type": "library",
   "keywords": [
     "balm",
     "balmjs",
