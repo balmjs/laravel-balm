@@ -24,7 +24,21 @@ composer require balmjs/laravel-balm
 Then run these commands to publish assets and config:
 
 ```sh
-php artisan vendor:publish --provider="Balm\Runtime\BalmServiceProvider"
+php artisan vendor:publish --provider="Balm\Runtime\BalmServiceProvider" --force
+```
+
+⚠️ `--force`: overwrite `package.json` or manual edit it:
+
+```json
+{
+  "scripts": {
+    "dev": "balm",
+    "prod": "balm -p"
+  },
+  "devDependencies": {
+    "balm": "^3.0.0-rc.2"
+  }
+}
 ```
 
 ### 1.2 Configuration
