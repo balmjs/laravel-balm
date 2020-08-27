@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "balm",
+    "prod": "balm -p"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "balm": "^3.0.0-rc.2"
+  }
+}

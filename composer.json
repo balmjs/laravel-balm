@@ -1,0 +1,41 @@
+{
+  "name": "balmjs/laravel-balm",
+  "description": "versioning / cache busting by BalmJS",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": [
+    "balm",
+    "balmjs",
+    "web",
+    "app",
+    "front-end",
+    "workflow",
+    "views"
+  ],
+  "homepage": "https://github.com/balmjs/laravel-balm",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Elf-mousE",
+      "email": "ifmouz@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Balm\\Runtime\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Balm\\Runtime\\BalmServiceProvider"
+      ]
+    }
+  }
+}
