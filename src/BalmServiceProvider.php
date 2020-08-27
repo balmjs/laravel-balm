@@ -1,6 +1,6 @@
 <?php
 
-namespace Balm;
+namespace Balm\Runtime;
 
 use Illuminate\Support\ServiceProvider;
 
