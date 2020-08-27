@@ -24,7 +24,7 @@ class BalmServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config' => public_path('vendor/laravel-balm'),
+            __DIR__.'/../config' => base_path(),
         ], '.');
     }
 }
