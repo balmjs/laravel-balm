@@ -1,11 +1,12 @@
 {
   "name": "balmjs/laravel-balm",
-  "description": "versioning / cache busting by BalmJS",
+  "description": "A standalone Front-End workflow for Laravel",
   "keywords": [
     "balm",
     "balmjs",
     "web",
     "app",
+    "standalone",
     "front-end",
     "workflow",
     "views"
