@@ -1,11 +1,11 @@
 # Laravel Balm
 
-> versioning / cache busting by [BalmJS](https://balm.js.org/)
+> A standalone Front-End workflow for Laravel
 
 ## Requirements
 
 - Laravel >= 5.3.x (requires PHP)
-- BalmJS >= 3.x (requires Node.js)
+- [BalmJS](https://balm.js.org/) >= 3.x (requires Node.js)
 
 ```sh
 npm install -g balm-core # required for balm 3.0
